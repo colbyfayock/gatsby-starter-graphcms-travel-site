@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-leaflet",
+  "name": "gatsby-starter-graphcms-travel-site",
   "description": "A Gatsby starter with Leafet!",
   "version": "0.2.4",
   "author": "Colby Fayock <hello@colbyfayock.com>",
@@ -10,8 +10,10 @@
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sass": "^2.3.3",
     "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-source-graphql": "^2.5.5",
     "leaflet": "^1.6.0",
     "node-sass": "^4.14.1",
+    "parameterize": "^1.0.0",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -67,9 +69,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet"
+    "url": "https://github.com/colbyfayock/gatsby-starter-graphcms-travel-site"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet/issues"
+    "url": "https://github.com/colbyfayock/gatsby-starter-graphcms-travel-site/issues"
   }
 }

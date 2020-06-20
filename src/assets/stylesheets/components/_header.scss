@@ -1,14 +1,19 @@
 header {
 
   width: 100%;
-  color: $white;
-  background-color: $gatsby-purple;
+  color: $blue-grey-900;
+  background-color: $white;
+
+  &,
+  a {
+    color: $blue-grey-900;
+  }
 
   .container {
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
-    line-height: 2.5em;
+    height: 5em;
+    line-height: 5em;
   }
 
   ul {
@@ -23,7 +28,6 @@ header {
 
   a {
     display: block;
-    color: lighten($gatsby-purple, 50);
     text-decoration: none;
     padding: 0 .5em;
   }

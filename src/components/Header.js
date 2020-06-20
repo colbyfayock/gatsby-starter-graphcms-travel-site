@@ -1,19 +1,22 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import { useSiteMetadata } from 'hooks';
+
 import Container from 'components/Container';
 
 const Header = () => {
+  const { companyName } = useSiteMetadata();
+
   return (
     <header>
       <Container type="content">
-        <p>My Gatsby Site</p>
+        <p>
+          <Link to="/">{ companyName }</Link>
+        </p>
         <ul>
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/page-2/">Page 2</Link>
+            <Link to="/destinations/">Destinations</Link>
           </li>
         </ul>
       </Container>
