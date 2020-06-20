@@ -1,15 +1,15 @@
 require( 'dotenv' ).config();
 
-const metadata = {
+const siteMetadata = {
   companyName: 'Travel Site',
-  companyUrl: 'https://graphcms.com/',
+  companyUrl: 'https://github.com/colbyfayock/gatsby-starter-graphcms-travel-site',
   authorName: 'Colby Fayock',
   authorUrl: 'https://www.colbyfayock.com/',
   siteUrl: 'https://gatsby-starter-graphcms-travel-site.netlify.app',
 };
 
 module.exports = {
-  siteMetadata: metadata,
+  siteMetadata,
   plugins: [
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-sass',
